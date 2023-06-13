@@ -1,0 +1,33 @@
+.container{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 900px;
+}
+
+.container-div{
+    color: white;
+    width: 40rem;
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.container-div > *{
+    padding-bottom: 3rem;
+}
+.count{
+    font-size: 5rem;
+}
+.buttons button{
+    padding: 1rem;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
